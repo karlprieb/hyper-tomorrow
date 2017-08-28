@@ -32,10 +32,6 @@ exports.decorateConfig = config => Object.assign({}, config, {
 	css: `
     ${config.css || ''}
 
-    .term_fit {
-      padding: 0 14px;
-    }
-
     .active_fqd {
       color: ${foregroundColor};
     }
